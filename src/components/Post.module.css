@@ -54,20 +54,20 @@
 	line-height: 1.5rem;
 }
 
-.post footer {
+.post > footer {
 	border-top: 1px solid var(--gray-600);
 	padding-top: 1.5rem;
 	margin-top: 1.5rem;
 }
 
-.post footer label {
+.post > footer label {
 	font-weight: 700;
 	color: var(--gray-100);
 	margin-bottom: 1rem;
 	display: block;
 }
 
-.post footer textarea {
+.post > footer textarea {
 	background-color: var(--gray-900);
 	border-radius: 8px;
 	border: none;
@@ -80,15 +80,15 @@
 	min-height: 6rem;
 }
 
-.post footer textarea:focus {
+.post > footer textarea:focus {
 	outline: 1px solid var(--green-500);
 }
 
-.post footer textarea::placeholder {
+.post > footer textarea::placeholder {
 	color: var(--gray-400);
 }
 
-.post footer button {
+.post > footer button {
 	background-color: var(--green-500);
 	border: none;
 	border-radius: 8px;
@@ -99,6 +99,6 @@
 	cursor: pointer;
 }
 
-.post footer button:hover {
+.post > footer button:hover {
 	background-color: var(--green-300);
 }

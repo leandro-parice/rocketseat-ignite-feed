@@ -1,5 +1,4 @@
 import styles from './Post.module.css';
-
 import avatar from '../assets/avatar.jpg';
 import { Comment } from './Comment';
 
@@ -25,9 +24,10 @@ export function Post() {
 			</div>
 			<footer>
 				<label>Deixe seu feedback</label>
-				<textarea placeholder="Escreva um comentário...">
-					Nossa, adorei!
-				</textarea>
+				<textarea
+					placeholder="Escreva um comentário..."
+					defaultValue="Nossa, adorei!"
+				/>
 				<button>Publicar</button>
 			</footer>
 			<div className="comments">
